@@ -1,0 +1,2 @@
+﻿signal,rebalance_days,top_n,annual_return,annual_volatility,sharpe,max_drawdown,calmar,win_rate,benchmark_annual_return,excess_annual_return,information_ratio,avg_turnover,annual_cost
+composite_ic_weight_industry_size_neutral,20,20,0.04080889938376653,0.1931514885565731,0.2112792383260034,-0.3030973797149106,0.13463956508680755,0.5092783505154639,0.014751314341899358,0.02605758504186717,0.3873648689245953,0.2959183673469388,0.005650515463917527

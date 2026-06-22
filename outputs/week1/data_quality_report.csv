@@ -1,0 +1,31 @@
+﻿section,item,value,note
+sample,price_rows,44536,Rows in raw qfq price data
+sample,factor_panel_rows,44536,Rows in processed factor panel
+sample,stock_count,46,Unique stocks
+sample,start_date,2020-01-02,Earliest price date
+sample,end_date,2023-12-29,Latest price date
+stock_rows,min_rows_per_stock,947,Minimum rows by stock
+stock_rows,median_rows_per_stock,970.0,Median rows by stock
+stock_rows,max_rows_per_stock,970,Maximum rows by stock
+stock_rows,stocks_with_less_than_200_rows,0,Potentially incomplete stocks
+raw_missing,open_missing_rate,0.0,Missing rate in raw price data
+raw_missing,high_missing_rate,0.0,Missing rate in raw price data
+raw_missing,low_missing_rate,0.0,Missing rate in raw price data
+raw_missing,close_missing_rate,0.0,Missing rate in raw price data
+raw_missing,vol_missing_rate,0.0,Missing rate in raw price data
+raw_missing,amount_missing_rate,0.0,Missing rate in raw price data
+raw_missing,turnover_rate_missing_rate,0.0,Missing rate in raw price data
+factor_quality,factor_momentum_non_null_rate,0.9793425543380636,Factor coverage rate
+factor_quality,factor_momentum_3sigma_outliers,504,Outliers after cross-sectional winsorization/z-score
+factor_quality,factor_volatility_non_null_rate,0.9793425543380636,Factor coverage rate
+factor_quality,factor_volatility_3sigma_outliers,502,Outliers after cross-sectional winsorization/z-score
+factor_quality,factor_roe_non_null_rate,0.0,Factor coverage rate
+factor_quality,factor_roe_3sigma_outliers,0,Outliers after cross-sectional winsorization/z-score
+factor_quality,factor_size_non_null_rate,1.0,Factor coverage rate
+factor_quality,factor_size_3sigma_outliers,0,Outliers after cross-sectional winsorization/z-score
+factor_quality,factor_turnover_non_null_rate,0.9803754266211604,Factor coverage rate
+factor_quality,factor_turnover_3sigma_outliers,1215,Outliers after cross-sectional winsorization/z-score
+factor_quality,factor_reversal_5d_non_null_rate,0.9948356385845158,Factor coverage rate
+factor_quality,factor_reversal_5d_3sigma_outliers,626,Outliers after cross-sectional winsorization/z-score
+trading_quality,zero_volume_rows,0,Possible suspended or invalid trading rows
+trading_quality,median_stocks_per_day,46.0,Cross-sectional breadth by trading date

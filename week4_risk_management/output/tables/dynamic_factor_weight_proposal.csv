@@ -1,0 +1,6 @@
+﻿factor,spearman_ic_icir,positive_icir,proposed_weight,weight_method
+factor_turnover,0.30974354399473575,0.30974354399473575,0.6066813440718313,positive_icir_weight
+factor_volatility,0.20081038521601974,0.20081038521601974,0.3933186559281687,positive_icir_weight
+factor_momentum,-0.11231373812902676,0.0,0.0,positive_icir_weight
+factor_reversal_5d,-0.026387039360965085,0.0,0.0,positive_icir_weight
+factor_size,-0.007130160830631188,0.0,0.0,positive_icir_weight

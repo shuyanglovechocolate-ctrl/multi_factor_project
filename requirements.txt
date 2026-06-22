@@ -1,0 +1,14 @@
+tushare
+pandas
+numpy
+scipy
+matplotlib
+seaborn
+tqdm
+pyarrow
+openpyxl
+jupyter
+akshare
+streamlit
+pillow
+backtrader

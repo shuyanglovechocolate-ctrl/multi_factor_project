@@ -1,0 +1,7 @@
+﻿difference_source,explanation
+rebalance_execution_time,Vectorized backtest applies target weights to next-period returns; Backtrader processes orders through event-driven bars.
+price_matching_logic,Vectorized returns use percentage returns directly; Backtrader marks positions using broker value and data feed prices.
+cost_deduction,Vectorized costs are turnover-based; Backtrader commissions and slippage are order-value based.
+cash_handling,Vectorized backtest assumes target exposure after weights; Backtrader keeps residual cash after executions.
+missing_price_handling,The two frameworks can differ when a symbol has missing bars or delayed data.
+nav_timestamp,Backtrader reports broker value by bar; vectorized NAV is accumulated from portfolio daily returns.

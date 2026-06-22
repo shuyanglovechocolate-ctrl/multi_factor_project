@@ -1,0 +1,10 @@
+No Look-Ahead Check
+===================
+PASS: Signal date is the rebalance date; the strategy ranks stocks only by the selected composite factor.
+PASS: Selected signal column is composite_ic_weight_industry_size_neutral; future return columns are not used for stock selection.
+PASS: Portfolio return uses next_ret_1d, which is ret_1d shifted by -1 within each stock.
+PASS: Rebalance cost is deducted at the rebalance date using realized weight turnover.
+PASS: Parameter sensitivity reuses the same signal and next-period return convention.
+
+Method note: to avoid look-ahead bias, each rebalance uses only the current composite factor snapshot.
+Holding returns begin from the next trading day. Future return fields are reserved for factor evaluation, not strategy selection.

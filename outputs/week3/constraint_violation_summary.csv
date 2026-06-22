@@ -1,0 +1,4 @@
+﻿constraint,threshold,violation_count
+single_stock_max_weight,0.08,0
+single_industry_max_weight,0.3,0
+minimum_holding_count,15.0,0

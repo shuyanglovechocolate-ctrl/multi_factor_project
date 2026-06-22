@@ -1,0 +1,17 @@
+Week 1 Data Quality Summary
+
+Raw price rows: 44536
+Factor panel rows: 44536
+Stock count: 46
+Date range: 2020-01-02 to 2023-12-29
+Rows per stock: min=947, median=970.0, max=970
+Stocks with <200 rows: 0
+Zero-volume rows: 0
+
+Factor non-null rates:
+- factor_momentum: 0.9793425543380636
+- factor_volatility: 0.9793425543380636
+- factor_roe: 0.0
+- factor_size: 1.0
+- factor_turnover: 0.9803754266211604
+- factor_reversal_5d: 0.9948356385845158

@@ -1,0 +1,6 @@
+﻿improvement_id,improvement_name,risk_evidence,related_module,current_problem,proposed_method,expected_effect,impact_score,urgency_score,feasibility_score,report_page,priority_score,priority_level
+IMP002,组合止损与仓位控制,当前策略最大回撤约 -30.31%。,12_risk_control_simulator,极端行情下净值回撤较深。,组合回撤触发降仓，并结合波动率目标控制仓位。,降低最大回撤，改善 Calmar。,4.7,4.6,4.1,11,4.489999999999999,高
+IMP001,动态因子权重,滚动 IC 显示因子有效性阶段性变化，当前建议最高权重因子为 factor_turnover。,11_factor_dynamic_weight_analysis,固定权重难以适应因子阶段性失效。,使用滚动 Rank IC / ICIR 调整因子权重。,提升信号稳定性，降低单一风格失效风险。,4.5,4.2,4.0,11,4.26,高
+IMP005,换手率与成本控制,换手率表用于评估交易成本压力。,05_risk_exposure,较高调仓频率可能侵蚀收益。,加入调仓缓冲区，优先选择低成本参数组合。,降低交易成本，提升净收益稳定性。,3.8,4.0,4.3,10,4.01,中高
+IMP004,行业权重约束,行业暴露表用于识别单一行业集中。,05_risk_exposure,行业集中可能导致风格切换风险。,设置单行业权重上限，并监控行业主动暴露。,降低行业拥挤和结构性行情回撤。,3.9,3.7,4.2,10,3.9299999999999997,中高
+IMP003,市场状态识别,策略相对沪深300 Beta 为 0.06。,09_market_effect_analysis,市场效应和系统性风险需要显性化监控。,基于滚动 Beta、均线和波动率识别市场状态。,在高风险市场降低仓位或切换防御配置。,4.0,3.8,3.8,4,3.88,中高

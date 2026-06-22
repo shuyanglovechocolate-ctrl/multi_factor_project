@@ -1,0 +1,6 @@
+﻿improvement_id,improvement_name,impact_score,urgency_score,feasibility_score,priority_score,priority_level,report_page
+IMP002,组合止损与仓位控制,4.7,4.6,4.1,4.489999999999999,高,11
+IMP001,动态因子权重,4.5,4.2,4.0,4.26,高,11
+IMP005,换手率与成本控制,3.8,4.0,4.3,4.01,中高,10
+IMP004,行业权重约束,3.9,3.7,4.2,3.9299999999999997,中高,10
+IMP003,市场状态识别,4.0,3.8,3.8,3.88,中高,4

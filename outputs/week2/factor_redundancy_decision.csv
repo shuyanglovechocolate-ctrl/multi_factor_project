@@ -1,0 +1,11 @@
+﻿factor_a,factor_b,spearman_corr,abs_corr,threshold,keep_factor,drop_factor,reason
+factor_momentum,factor_volatility,-0.23035193851512561,0.23035193851512561,0.7,,,abs_corr_not_above_threshold_keep_both
+factor_momentum,factor_turnover,-0.10737164876931651,0.10737164876931651,0.7,,,abs_corr_not_above_threshold_keep_both
+factor_momentum,factor_size,-0.00205755884143552,0.00205755884143552,0.7,,,abs_corr_not_above_threshold_keep_both
+factor_momentum,factor_reversal_5d,-0.44100039320323015,0.44100039320323015,0.7,,,abs_corr_not_above_threshold_keep_both
+factor_volatility,factor_turnover,0.5801795736895827,0.5801795736895827,0.7,,,abs_corr_not_above_threshold_keep_both
+factor_volatility,factor_size,-0.032279184421150006,0.032279184421150006,0.7,,,abs_corr_not_above_threshold_keep_both
+factor_volatility,factor_reversal_5d,0.046612224956533325,0.046612224956533325,0.7,,,abs_corr_not_above_threshold_keep_both
+factor_turnover,factor_size,0.01345320747870822,0.01345320747870822,0.7,,,abs_corr_not_above_threshold_keep_both
+factor_turnover,factor_reversal_5d,-0.0044664399868946355,0.0044664399868946355,0.7,,,abs_corr_not_above_threshold_keep_both
+factor_size,factor_reversal_5d,0.007934864688785234,0.007934864688785234,0.7,,,abs_corr_not_above_threshold_keep_both
